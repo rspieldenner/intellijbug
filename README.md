@@ -1,6 +1,8 @@
 IntelliJ 13.0.2, 13.1.1 Gradle Import Issue
 ===========================================
 
+I'm importing via the Quick Start Import Project link. I'm selecting the build.gradle file contained in this repository, and then accepting all defaults, specifically: Use default gradle wrapper (recommended)
+
 I believe this import issue is being caused when gradle buildscript plugins are pulled from a maven repository when they interact with project dependencies being pulled from an ivy repository, with a library available in both repositories.
 
 The exampleplugin depends on com.netflix.frigga:frigga:0.6 via a local maven repository. The source code of the project pulls dependencies from a local ivy repository that happens to contain the frigga library as well.
