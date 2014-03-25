@@ -1,0 +1,616 @@
+2014-03-25 14:29:46,664 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-03-25 14:29:46,689 [     25]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IU-135.480, 21 Mar 2014 00:00) 
+2014-03-25 14:29:46,689 [     25]   INFO -        #com.intellij.idea.Main - OS: Mac OS X (10.9.2, x86_64) 
+2014-03-25 14:29:46,689 [     25]   INFO -        #com.intellij.idea.Main - JRE: 1.6.0_65-b14-462-11M4609 (Apple Inc.) 
+2014-03-25 14:29:46,689 [     25]   INFO -        #com.intellij.idea.Main - JVM: 20.65-b04-462 (Java HotSpot(TM) 64-Bit Server VM) 
+2014-03-25 14:29:46,694 [     30]   INFO -        #com.intellij.idea.Main - JVM Args: -Dfile.encoding=UTF-8 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+UseCodeCacheFlushing -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -Xverify:none -Xbootclasspath/a:../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=96m -XX:+UseCompressedOops -Didea.java.redist=NoJavaDistribution -Didea.paths.selector=IntelliJIdea13 -DCVS_PASSFILE=~/.cvspass -Dsun.java2d.noddraw=true -Didea.fatal.error.notification=disabled -Didea.max.intellisense.filesize=2500 -Didea.use.default.antialiasing.in.editor=false -Dcom.apple.mrj.application.live-resize=false -Dapple.awt.graphics.UseQuartz=true -Didea.no.launcher=false -Dapple.awt.fullscreencapturealldisplays=false -Dsun.java2d.pmoffscreen=false -Dapple.laf.useScreenMenuBar=true -Dswing.bufferPerWindow=false -Djava.endorsed.dirs= -Didea.smooth.progress=false -Didea.popup.weight=heavy -Didea.cycle.buffer.size=1024 -Dsun.java2d.d3d=false -Didea.xdebug.key=-Xdebug -Didea.dynamic.classpath=false 
+2014-03-25 14:29:46,729 [     65]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 35 ms 
+2014-03-25 14:29:46,762 [     98]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.5) in 33 ms 
+2014-03-25 14:29:46,766 [    102]   INFO -        #com.intellij.idea.Main - initializing environment 
+2014-03-25 14:29:46,767 [    103]   INFO - .intellij.util.EnvironmentUtil - loading shell env: /bin/zsh -l -i -c '/Applications/IntelliJ IDEA 13.app/bin/printenv.py' '/private/var/folders/v5/7m7ljgm97r32d9tz988p6k8dcmyhyf/T/intellij-shell-env4710477511008747390.tmp' 
+2014-03-25 14:29:47,373 [    709]   INFO - .intellij.util.EnvironmentUtil - shell environment loaded (51 vars) 
+2014-03-25 14:29:47,981 [   1317]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor flex-ide-specific.xml 
+2014-03-25 14:29:48,666 [   2002]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor intellilang-tapestry-support.xml 
+2014-03-25 14:29:49,425 [   2761]   INFO - llij.ide.plugins.PluginManager - 128 plugins initialized in 2031 ms 
+2014-03-25 14:29:49,427 [   2763]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android Designer, Android Support (10.0), Ant Support (1.0), Application Servers View (0.2.0), AspectJ Support (1.1), Byte Code Viewer (0.1), CSS Support, CloudBees integration (1.0), CoffeeScript (2.0), Commander (1.0.0), Copyright (8.1), Coverage, Cucumber for Groovy (999.999), Cucumber for Java (999.999), DSM Analysis (1.0.0), Database Support (1.0), Eclipse Integration (3.0), Emma, Gherkin (999.999), Git Integration (8.1), GitHub, GlassFish Integration (1.0), Gradle, Grails (9.0), Groovy (9.0), GuiceyIDEA (8.0), HAML, HTML Tools (2.0), Heroku integration (1.0), Hibernate Support (1.0), I18n for Java, IDEA CORE, IDEtalk (1.0), IntelliLang (8.0), J2ME (1.0), JBoss Integration (1.0), JSR45 Integration (1.0), JUnit (1.0), Java EE: Batch Applications (1.0), Java EE: Bean Validation Support (1.1), Java EE: Contexts and Dependency Injection (1.1), Java EE: EJB, JPA, Servlets (1.0), Java EE: JMS, JSON Processing, Concurrency, Transaction  (1.0), Java EE: RESTful Web Services (JAX-RS) (1.0), Java EE: Web Services (JAX-WS) (1.9), Java EE: WebSockets (1.0), Java Server Pages Integration (1.0), JavaFX (1.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), Jetty Integration (1.0), LESS support, Maven Integration, Maven Integration Extension, OpenShift integration (1.0), Osmorc (1.4.4), Perforce Integration (2.0), Persistence Frameworks Support (1.0), Playframework Support (1.0), Plugin DevKit (1.0), Properties Support, QuirksMode, REST Client, Refactor-X (2.01), Remote Hosts Access (0.1), SASS support, SQL support (1.0), SSH Remote Run (0.1), Spring AOP/@AspectJ (1.0), Spring Batch (1.0), Spring Data (1.0), Spring Integration Patterns (1.0), Spring MVC Support (1.0), Spring OSGi (1.0), Spring Roo Console (1.0), Spring Security (1.0), Spring Support (1.0), Spring Web Flow (1.0), Spring Web Services (1.0), Spy-js (999.999), Structural Search (9.0), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TestNG-J (8.0), Time Tracking (1.0), Tomcat and TomEE Integration (1.0), Type Migration, UI Designer, UML Support (1.0), W3C Validators (2.0), XPathView + XSLT Support (4), XSLT-Debugger (1.4), YAML, ZKM-Unscramble (1.0), dmServer Support (0.9.5), hg4idea (10.0) 
+2014-03-25 14:29:49,427 [   2763]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: IvyIDEA (1.0.8), Markdown (0.9.3), Spock Framework Enhancements (0.8) 
+2014-03-25 14:29:49,427 [   2763]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: ASP (0.1), CFML Support (3.53), CVS Integration (11), ClearCase Integration (2.0), Cloud Foundry integration (1.0), Flash/Flex Support (1.0), FreeMarker support (1.0), GWT Support (1.0), Geronimo Integration (1.0), Google App Engine Integration (1.1.4), JBoss Drools Support (1.0), JBoss Seam Pageflow Support (1.0), JBoss Seam Pages Support (1.0), JBoss Seam Support (1.0), JBoss jBPM (2.0.0), Java EE: Java Server Faces (2.2.X.), Resin Integration (8.1), Struts 1.x (2.0), Struts 2 (1.0), TFS Integration (999.999), Tapestry support (1.0), Vaadin Support (1.0), Velocity support (1.0), Visual SourceSafe Integration (2.0), WebLogic Integration (1.0), WebSphere Integration (1.0) 
+2014-03-25 14:29:49,991 [   3327]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=755630080 
+2014-03-25 14:29:50,144 [   3480]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /Applications/IntelliJ IDEA 13.app/bin/fsnotifier 
+2014-03-25 14:29:50,168 [   3504]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-03-25 14:29:51,253 [   4589]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2014-03-25 14:29:52,259 [   5595]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-03-25 14:29:52,265 [   5601]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-03-25 14:29:52,651 [   5987]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/androidRemoteDatabases.xml file is null 
+2014-03-25 14:29:52,717 [   6053]   INFO - pl.stores.ApplicationStoreImpl - 99 application components initialized in 3269 ms 
+2014-03-25 14:29:52,731 [   6067]   INFO - .intellij.idea.IdeaApplication - App initialization took 6513 ms 
+2014-03-25 14:29:55,670 [   9006]   INFO -                  TestNG Runner - Create TestNG Template Configuration 
+2014-03-25 14:29:55,680 [   9016]   INFO -                  TestNG Runner - Create TestNG Template Configuration 
+2014-03-25 14:29:55,708 [   9044]   INFO - ellij.project.impl.ProjectImpl - 21 project components initialized in 230 ms 
+2014-03-25 14:29:55,708 [   9044]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-03-25 14:30:00,666 [  14002]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from /Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home 
+2014-03-25 14:30:00,668 [  14004]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from /Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home 
+2014-03-25 14:30:01,544 [  14880]   INFO - .project.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: [--init-script, /private/var/folders/v5/7m7ljgm97r32d9tz988p6k8dcmyhyf/T/ijinit3807311826632225937.gradle] 
+2014-03-25 14:30:08,402 [  21738]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $WORKSPACE_FILE$ file is null 
+2014-03-25 14:30:08,410 [  21746]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/encodings.xml file is null 
+2014-03-25 14:30:08,416 [  21752]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/modules.xml file is null 
+2014-03-25 14:30:08,438 [  21774]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/vcs.xml file is null 
+2014-03-25 14:30:08,482 [  21818]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/compiler.xml file is null 
+2014-03-25 14:30:08,487 [  21823]   INFO -                  TestNG Runner - Create TestNG Template Configuration 
+2014-03-25 14:30:08,488 [  21824]   INFO -                  TestNG Runner - Create TestNG Template Configuration 
+2014-03-25 14:30:08,587 [  21923]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/dynamic.xml file is null 
+2014-03-25 14:30:08,683 [  22019]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/deployment.xml file is null 
+2014-03-25 14:30:08,850 [  22186]   INFO - ellij.project.impl.ProjectImpl - 178 project components initialized in 520 ms 
+2014-03-25 14:30:08,850 [  22186]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-03-25 14:30:08,868 [  22204]   INFO - i.vcs.changes.ChangeListWorker - default list not found when copy 
+2014-03-25 14:30:08,869 [  22205]   INFO - i.vcs.changes.ChangeListWorker - default list not found when copy in original object too 
+2014-03-25 14:30:08,894 [  22230]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2014-03-25 14:30:08,894 [  22230]   INFO - unicator.p2p.UserMonitorThread - Force finding users 
+2014-03-25 14:30:08,895 [  22231]   INFO - unicator.p2p.UserMonitorThread - Start User Monitor Thread 
+2014-03-25 14:30:08,895 [  22231]   INFO - icator.p2p.MulticastPingThread - /10.2.237.16 IDEtalk Multicast Thread: Start thread. 
+2014-03-25 14:30:09,115 [  22451]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/customization.xml file is null 
+2014-03-25 14:30:09,127 [  22463]   WARN - j.ui.mac.MacMainFrameDecorator - no url bundle present. 
+To use platform protocol handler to open external links specify required protocols in the mac app layout section of the build file
+Example: args.urlSchemes = ["your-protocol"] will handle following links: your-protocol://open?file=file&line=line 
+2014-03-25 14:30:09,551 [  22887]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/codeStyleSettings.xml file is null 
+2014-03-25 14:30:09,552 [  22888]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/projectCodeStyle.xml file is null 
+2014-03-25 14:30:09,625 [  22961]   INFO - CompilerWorkspaceConfiguration - Available processors: 8 
+2014-03-25 14:30:09,668 [  23004]   INFO - .roots.impl.DirectoryIndexImpl - Directory index initialized in 0 ms, indexed 0 directories 
+2014-03-25 14:30:09,669 [  23005]   INFO - pl.PushedFilePropertiesUpdater - File properties pushed in 0 ms 
+2014-03-25 14:30:09,986 [  23322]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 279 ms 
+2014-03-25 14:30:09,986 [  23322]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to update 
+2014-03-25 14:30:09,986 [  23322]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 0 ms 
+2014-03-25 14:30:10,025 [  23361]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/gradle.xml file is null 
+2014-03-25 14:30:10,327 [  23663]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/gant_config.xml file is null 
+2014-03-25 14:30:10,543 [  23879]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from /Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home 
+2014-03-25 14:30:10,544 [  23880]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from /Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home 
+2014-03-25 14:30:10,549 [  23885]   INFO - .project.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: [--init-script, /private/var/folders/v5/7m7ljgm97r32d9tz988p6k8dcmyhyf/T/ijinit8995477658145678090.gradle] 
+2014-03-25 14:30:11,707 [  25043]   INFO - .project.GradleProjectResolver - Gradle project resolve error 
+org.gradle.tooling.BuildActionFailureException: The supplied build action failed with an exception.
+	at org.gradle.tooling.internal.consumer.connection.ActionAwareConsumerConnection.run(ActionAwareConsumerConnection.java:42)
+	at org.gradle.tooling.internal.consumer.DefaultBuildActionExecuter$1.run(DefaultBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.consumer.connection.LazyConsumerActionExecutor.run(LazyConsumerActionExecutor.java:82)
+	at org.gradle.tooling.internal.consumer.connection.ProgressLoggingConsumerActionExecutor.run(ProgressLoggingConsumerActionExecutor.java:58)
+	at org.gradle.tooling.internal.consumer.connection.LoggingInitializerConsumerActionExecutor.run(LoggingInitializerConsumerActionExecutor.java:44)
+	at org.gradle.tooling.internal.consumer.async.DefaultAsyncConsumerActionExecutor$1$1.run(DefaultAsyncConsumerActionExecutor.java:55)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:66)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+	at org.gradle.tooling.internal.consumer.BlockingResultHandler.getResult(BlockingResultHandler.java:46)
+	at org.gradle.tooling.internal.consumer.DefaultBuildActionExecuter.run(DefaultBuildActionExecuter.java:43)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver.doResolveProjectInfo(GradleProjectResolver.java:183)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver.access$300(GradleProjectResolver.java:64)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver$ProjectConnectionDataNodeFunction.fun(GradleProjectResolver.java:358)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver$ProjectConnectionDataNodeFunction.fun(GradleProjectResolver.java:330)
+	at org.jetbrains.plugins.gradle.service.project.GradleExecutionHelper.execute(GradleExecutionHelper.java:201)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver.resolveProjectInfo(GradleProjectResolver.java:116)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver.resolveProjectInfo(GradleProjectResolver.java:64)
+	at com.intellij.openapi.externalSystem.service.remote.RemoteExternalSystemProjectResolverImpl$1.produce(RemoteExternalSystemProjectResolverImpl.java:41)
+	at com.intellij.openapi.externalSystem.service.remote.RemoteExternalSystemProjectResolverImpl$1.produce(RemoteExternalSystemProjectResolverImpl.java:37)
+	at com.intellij.openapi.externalSystem.service.remote.AbstractRemoteExternalSystemService.execute(AbstractRemoteExternalSystemService.java:59)
+	at com.intellij.openapi.externalSystem.service.remote.RemoteExternalSystemProjectResolverImpl.resolveProjectInfo(RemoteExternalSystemProjectResolverImpl.java:37)
+	at com.intellij.openapi.externalSystem.service.remote.wrapper.ExternalSystemProjectResolverWrapper.resolveProjectInfo(ExternalSystemProjectResolverWrapper.java:49)
+	at com.intellij.openapi.externalSystem.service.internal.ExternalSystemResolveProjectTask.doExecute(ExternalSystemResolveProjectTask.java:48)
+	at com.intellij.openapi.externalSystem.service.internal.AbstractExternalSystemTask.execute(AbstractExternalSystemTask.java:137)
+	at com.intellij.openapi.externalSystem.service.internal.AbstractExternalSystemTask.execute(AbstractExternalSystemTask.java:123)
+	at com.intellij.openapi.externalSystem.util.ExternalSystemUtil$3.execute(ExternalSystemUtil.java:467)
+	at com.intellij.openapi.externalSystem.util.ExternalSystemUtil$4$1.run(ExternalSystemUtil.java:537)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$TaskRunnable.run(ProgressManagerImpl.java:464)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$6.run(ProgressManagerImpl.java:274)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$2.run(ProgressManagerImpl.java:178)
+	at com.intellij.openapi.progress.ProgressManager.executeProcessUnderProgress(ProgressManager.java:209)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:212)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.runProcess(ProgressManagerImpl.java:171)
+	at com.intellij.openapi.application.impl.ApplicationImpl$10$1.run(ApplicationImpl.java:645)
+	at com.intellij.openapi.application.impl.ApplicationImpl$8.run(ApplicationImpl.java:419)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:439)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1$1.run(ApplicationImpl.java:149)
+Caused by: com.intellij.openapi.externalSystem.model.ExternalSystemException: Could not resolve all dependencies for configuration 'detachedConfiguration5'.
+Module version :intellijbug:unspecified, configuration 'detachedConfiguration5' declares a dependency on configuration 'master' which is not declared in the module descriptor for com.netflix.frigga:frigga:0.6
+	at org.jetbrains.plugins.gradle.model.ProjectImportAction.execute(ProjectImportAction.java:72)
+	at org.jetbrains.plugins.gradle.model.ProjectImportAction.execute(ProjectImportAction.java:35)
+	at org.gradle.tooling.internal.consumer.connection.ActionAwareConsumerConnection$BuildActionAdapter.execute(ActionAwareConsumerConnection.java:57)
+	at org.gradle.tooling.internal.provider.ClientProvidedBuildAction$1.onConfigure(ClientProvidedBuildAction.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:31)
+	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:31)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy15.onConfigure(Unknown Source)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:148)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:113)
+	at org.gradle.initialization.DefaultGradleLauncher.getBuildAnalysis(DefaultGradleLauncher.java:92)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.configure(InProcessBuildActionExecuter.java:68)
+	at org.gradle.tooling.internal.provider.ClientProvidedBuildAction.run(ClientProvidedBuildAction.java:66)
+	at org.gradle.tooling.internal.provider.ClientProvidedBuildAction.run(ClientProvidedBuildAction.java:33)
+	at org.gradle.tooling.internal.provider.ConfiguringBuildAction.run(ConfiguringBuildAction.java:108)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:35)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:45)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:42)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:24)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.StartStopIfBuildAndStop.execute(StartStopIfBuildAndStop.java:33)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.ReturnResult.execute(ReturnResult.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:71)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:69)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:69)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:60)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:60)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:45)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator.runCommand(DaemonStateCoordinator.java:186)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy.doBuild(StartBuildOrRespondWithBusy.java:49)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.HandleStop.execute(HandleStop.java:36)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.DaemonHygieneAction.execute(DaemonHygieneAction.java:36)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.CatchAndForwardDaemonFailure.execute(CatchAndForwardDaemonFailure.java:32)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.DefaultDaemonCommandExecuter.executeCommand(DefaultDaemonCommandExecuter.java:51)
+	at org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler$ConnectionWorker.handleCommand(DefaultIncomingConnectionHandler.java:155)
+	at org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler$ConnectionWorker.receiveAndHandleCommand(DefaultIncomingConnectionHandler.java:128)
+	at org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler$ConnectionWorker.run(DefaultIncomingConnectionHandler.java:116)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:66)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2014-03-25 14:30:11,711 [  25047]   INFO - .BaseProjectImportErrorHandler - Failed to import Gradle project at '/Users/rspieldenner/Projects/github/intellijbug' 
+org.gradle.tooling.BuildActionFailureException: The supplied build action failed with an exception.
+	at org.gradle.tooling.internal.consumer.connection.ActionAwareConsumerConnection.run(ActionAwareConsumerConnection.java:42)
+	at org.gradle.tooling.internal.consumer.DefaultBuildActionExecuter$1.run(DefaultBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.consumer.connection.LazyConsumerActionExecutor.run(LazyConsumerActionExecutor.java:82)
+	at org.gradle.tooling.internal.consumer.connection.ProgressLoggingConsumerActionExecutor.run(ProgressLoggingConsumerActionExecutor.java:58)
+	at org.gradle.tooling.internal.consumer.connection.LoggingInitializerConsumerActionExecutor.run(LoggingInitializerConsumerActionExecutor.java:44)
+	at org.gradle.tooling.internal.consumer.async.DefaultAsyncConsumerActionExecutor$1$1.run(DefaultAsyncConsumerActionExecutor.java:55)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:66)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+	at org.gradle.tooling.internal.consumer.BlockingResultHandler.getResult(BlockingResultHandler.java:46)
+	at org.gradle.tooling.internal.consumer.DefaultBuildActionExecuter.run(DefaultBuildActionExecuter.java:43)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver.doResolveProjectInfo(GradleProjectResolver.java:183)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver.access$300(GradleProjectResolver.java:64)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver$ProjectConnectionDataNodeFunction.fun(GradleProjectResolver.java:358)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver$ProjectConnectionDataNodeFunction.fun(GradleProjectResolver.java:330)
+	at org.jetbrains.plugins.gradle.service.project.GradleExecutionHelper.execute(GradleExecutionHelper.java:201)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver.resolveProjectInfo(GradleProjectResolver.java:116)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver.resolveProjectInfo(GradleProjectResolver.java:64)
+	at com.intellij.openapi.externalSystem.service.remote.RemoteExternalSystemProjectResolverImpl$1.produce(RemoteExternalSystemProjectResolverImpl.java:41)
+	at com.intellij.openapi.externalSystem.service.remote.RemoteExternalSystemProjectResolverImpl$1.produce(RemoteExternalSystemProjectResolverImpl.java:37)
+	at com.intellij.openapi.externalSystem.service.remote.AbstractRemoteExternalSystemService.execute(AbstractRemoteExternalSystemService.java:59)
+	at com.intellij.openapi.externalSystem.service.remote.RemoteExternalSystemProjectResolverImpl.resolveProjectInfo(RemoteExternalSystemProjectResolverImpl.java:37)
+	at com.intellij.openapi.externalSystem.service.remote.wrapper.ExternalSystemProjectResolverWrapper.resolveProjectInfo(ExternalSystemProjectResolverWrapper.java:49)
+	at com.intellij.openapi.externalSystem.service.internal.ExternalSystemResolveProjectTask.doExecute(ExternalSystemResolveProjectTask.java:48)
+	at com.intellij.openapi.externalSystem.service.internal.AbstractExternalSystemTask.execute(AbstractExternalSystemTask.java:137)
+	at com.intellij.openapi.externalSystem.service.internal.AbstractExternalSystemTask.execute(AbstractExternalSystemTask.java:123)
+	at com.intellij.openapi.externalSystem.util.ExternalSystemUtil$3.execute(ExternalSystemUtil.java:467)
+	at com.intellij.openapi.externalSystem.util.ExternalSystemUtil$4$1.run(ExternalSystemUtil.java:537)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$TaskRunnable.run(ProgressManagerImpl.java:464)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$6.run(ProgressManagerImpl.java:274)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$2.run(ProgressManagerImpl.java:178)
+	at com.intellij.openapi.progress.ProgressManager.executeProcessUnderProgress(ProgressManager.java:209)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:212)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.runProcess(ProgressManagerImpl.java:171)
+	at com.intellij.openapi.application.impl.ApplicationImpl$10$1.run(ApplicationImpl.java:645)
+	at com.intellij.openapi.application.impl.ApplicationImpl$8.run(ApplicationImpl.java:419)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:439)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1$1.run(ApplicationImpl.java:149)
+Caused by: com.intellij.openapi.externalSystem.model.ExternalSystemException: Could not resolve all dependencies for configuration 'detachedConfiguration5'.
+Module version :intellijbug:unspecified, configuration 'detachedConfiguration5' declares a dependency on configuration 'master' which is not declared in the module descriptor for com.netflix.frigga:frigga:0.6
+	at org.jetbrains.plugins.gradle.model.ProjectImportAction.execute(ProjectImportAction.java:72)
+	at org.jetbrains.plugins.gradle.model.ProjectImportAction.execute(ProjectImportAction.java:35)
+	at org.gradle.tooling.internal.consumer.connection.ActionAwareConsumerConnection$BuildActionAdapter.execute(ActionAwareConsumerConnection.java:57)
+	at org.gradle.tooling.internal.provider.ClientProvidedBuildAction$1.onConfigure(ClientProvidedBuildAction.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:31)
+	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:31)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy15.onConfigure(Unknown Source)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:148)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:113)
+	at org.gradle.initialization.DefaultGradleLauncher.getBuildAnalysis(DefaultGradleLauncher.java:92)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.configure(InProcessBuildActionExecuter.java:68)
+	at org.gradle.tooling.internal.provider.ClientProvidedBuildAction.run(ClientProvidedBuildAction.java:66)
+	at org.gradle.tooling.internal.provider.ClientProvidedBuildAction.run(ClientProvidedBuildAction.java:33)
+	at org.gradle.tooling.internal.provider.ConfiguringBuildAction.run(ConfiguringBuildAction.java:108)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:35)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:45)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:42)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:24)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.StartStopIfBuildAndStop.execute(StartStopIfBuildAndStop.java:33)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.ReturnResult.execute(ReturnResult.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:71)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:69)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:69)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:60)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:60)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:45)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator.runCommand(DaemonStateCoordinator.java:186)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy.doBuild(StartBuildOrRespondWithBusy.java:49)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.HandleStop.execute(HandleStop.java:36)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.DaemonHygieneAction.execute(DaemonHygieneAction.java:36)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.CatchAndForwardDaemonFailure.execute(CatchAndForwardDaemonFailure.java:32)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.DefaultDaemonCommandExecuter.executeCommand(DefaultDaemonCommandExecuter.java:51)
+	at org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler$ConnectionWorker.handleCommand(DefaultIncomingConnectionHandler.java:155)
+	at org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler$ConnectionWorker.receiveAndHandleCommand(DefaultIncomingConnectionHandler.java:128)
+	at org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler$ConnectionWorker.run(DefaultIncomingConnectionHandler.java:116)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:66)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2014-03-25 14:30:11,714 [  25050]   WARN - nal.AbstractExternalSystemTask - Could not resolve all dependencies for configuration 'detachedConfiguration5'.
+Module version :intellijbug:unspecified, configuration 'detachedConfiguration5' declares a dependency on configuration 'master' which is not declared in the module descriptor for com.netflix.frigga:frigga:0.6 
+com.intellij.openapi.externalSystem.model.ExternalSystemException: Could not resolve all dependencies for configuration 'detachedConfiguration5'.
+Module version :intellijbug:unspecified, configuration 'detachedConfiguration5' declares a dependency on configuration 'master' which is not declared in the module descriptor for com.netflix.frigga:frigga:0.6
+	at org.jetbrains.plugins.gradle.service.project.GradleExecutionHelper.execute(GradleExecutionHelper.java:206)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver.resolveProjectInfo(GradleProjectResolver.java:116)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver.resolveProjectInfo(GradleProjectResolver.java:64)
+	at com.intellij.openapi.externalSystem.service.remote.RemoteExternalSystemProjectResolverImpl$1.produce(RemoteExternalSystemProjectResolverImpl.java:41)
+	at com.intellij.openapi.externalSystem.service.remote.RemoteExternalSystemProjectResolverImpl$1.produce(RemoteExternalSystemProjectResolverImpl.java:37)
+	at com.intellij.openapi.externalSystem.service.remote.AbstractRemoteExternalSystemService.execute(AbstractRemoteExternalSystemService.java:59)
+	at com.intellij.openapi.externalSystem.service.remote.RemoteExternalSystemProjectResolverImpl.resolveProjectInfo(RemoteExternalSystemProjectResolverImpl.java:37)
+	at com.intellij.openapi.externalSystem.service.remote.wrapper.ExternalSystemProjectResolverWrapper.resolveProjectInfo(ExternalSystemProjectResolverWrapper.java:49)
+	at com.intellij.openapi.externalSystem.service.internal.ExternalSystemResolveProjectTask.doExecute(ExternalSystemResolveProjectTask.java:48)
+	at com.intellij.openapi.externalSystem.service.internal.AbstractExternalSystemTask.execute(AbstractExternalSystemTask.java:137)
+	at com.intellij.openapi.externalSystem.service.internal.AbstractExternalSystemTask.execute(AbstractExternalSystemTask.java:123)
+	at com.intellij.openapi.externalSystem.util.ExternalSystemUtil$3.execute(ExternalSystemUtil.java:467)
+	at com.intellij.openapi.externalSystem.util.ExternalSystemUtil$4$1.run(ExternalSystemUtil.java:537)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$TaskRunnable.run(ProgressManagerImpl.java:464)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$6.run(ProgressManagerImpl.java:274)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$2.run(ProgressManagerImpl.java:178)
+	at com.intellij.openapi.progress.ProgressManager.executeProcessUnderProgress(ProgressManager.java:209)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:212)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.runProcess(ProgressManagerImpl.java:171)
+	at com.intellij.openapi.application.impl.ApplicationImpl$10$1.run(ApplicationImpl.java:645)
+	at com.intellij.openapi.application.impl.ApplicationImpl$8.run(ApplicationImpl.java:419)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:439)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1$1.run(ApplicationImpl.java:149)
+
+2014-03-25 14:30:11,755 [  25091]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $MODULE_FILE$ file is null 
+2014-03-25 14:30:11,784 [  25120]   INFO - .manage.ContentRootDataService - Importing content root '/Users/rspieldenner/Projects/github/intellijbug' for module 'intellijbug' 
+2014-03-25 14:30:11,785 [  25121]   INFO - .manage.ContentRootDataService - Importing source root '/Users/rspieldenner/Projects/github/intellijbug/src/main/java' for content root 'file:///Users/rspieldenner/Projects/github/intellijbug' of module 'intellijbug' 
+2014-03-25 14:30:11,789 [  25125]   INFO - .manage.ContentRootDataService - Importing source root '/Users/rspieldenner/Projects/github/intellijbug/src/test/java' for content root 'file:///Users/rspieldenner/Projects/github/intellijbug' of module 'intellijbug' 
+2014-03-25 14:30:11,789 [  25125]   INFO - .manage.ContentRootDataService - Importing source root '/Users/rspieldenner/Projects/github/intellijbug/src/main/resources' for content root 'file:///Users/rspieldenner/Projects/github/intellijbug' of module 'intellijbug' 
+2014-03-25 14:30:11,789 [  25125]   INFO - .manage.ContentRootDataService - Importing source root '/Users/rspieldenner/Projects/github/intellijbug/src/test/resources' for content root 'file:///Users/rspieldenner/Projects/github/intellijbug' of module 'intellijbug' 
+2014-03-25 14:30:11,790 [  25126]   INFO - .manage.ContentRootDataService - Importing excluded root '/Users/rspieldenner/Projects/github/intellijbug/build' for content root 'file:///Users/rspieldenner/Projects/github/intellijbug' of module 'intellijbug' 
+2014-03-25 14:30:11,790 [  25126]   INFO - .manage.ContentRootDataService - Importing excluded root '/Users/rspieldenner/Projects/github/intellijbug/.gradle' for content root 'file:///Users/rspieldenner/Projects/github/intellijbug' of module 'intellijbug' 
+2014-03-25 14:30:11,853 [  25189]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/sqldialects.xml file is null 
+2014-03-25 14:30:12,863 [  26199]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 1000 ms 
+2014-03-25 14:30:12,863 [  26199]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to update 
+2014-03-25 14:30:12,863 [  26199]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 0 ms 
+2014-03-25 14:30:12,873 [  26209]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from /Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home 
+2014-03-25 14:30:12,874 [  26210]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from /Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home 
+2014-03-25 14:30:12,878 [  26214]   INFO - .project.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: [--init-script, /private/var/folders/v5/7m7ljgm97r32d9tz988p6k8dcmyhyf/T/ijinit8286733315777287628.gradle] 
+2014-03-25 14:30:13,044 [  26380]   INFO - unicator.p2p.UserMonitorThread - Force finding users 
+2014-03-25 14:30:13,690 [  27026]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/IntelliLang.xml file is null 
+2014-03-25 14:30:13,701 [  27037]   INFO - or.jabber.impl.JabberTransport - Jabber connected 
+2014-03-25 14:30:13,859 [  27195]   INFO - .project.GradleProjectResolver - Gradle project resolve error 
+org.gradle.tooling.BuildActionFailureException: The supplied build action failed with an exception.
+	at org.gradle.tooling.internal.consumer.connection.ActionAwareConsumerConnection.run(ActionAwareConsumerConnection.java:42)
+	at org.gradle.tooling.internal.consumer.DefaultBuildActionExecuter$1.run(DefaultBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.consumer.connection.LazyConsumerActionExecutor.run(LazyConsumerActionExecutor.java:82)
+	at org.gradle.tooling.internal.consumer.connection.ProgressLoggingConsumerActionExecutor.run(ProgressLoggingConsumerActionExecutor.java:58)
+	at org.gradle.tooling.internal.consumer.connection.LoggingInitializerConsumerActionExecutor.run(LoggingInitializerConsumerActionExecutor.java:44)
+	at org.gradle.tooling.internal.consumer.async.DefaultAsyncConsumerActionExecutor$1$1.run(DefaultAsyncConsumerActionExecutor.java:55)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:66)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+	at org.gradle.tooling.internal.consumer.BlockingResultHandler.getResult(BlockingResultHandler.java:46)
+	at org.gradle.tooling.internal.consumer.DefaultBuildActionExecuter.run(DefaultBuildActionExecuter.java:43)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver.doResolveProjectInfo(GradleProjectResolver.java:183)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver.access$300(GradleProjectResolver.java:64)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver$ProjectConnectionDataNodeFunction.fun(GradleProjectResolver.java:358)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver$ProjectConnectionDataNodeFunction.fun(GradleProjectResolver.java:330)
+	at org.jetbrains.plugins.gradle.service.project.GradleExecutionHelper.execute(GradleExecutionHelper.java:201)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver.resolveProjectInfo(GradleProjectResolver.java:116)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver.resolveProjectInfo(GradleProjectResolver.java:64)
+	at com.intellij.openapi.externalSystem.service.remote.RemoteExternalSystemProjectResolverImpl$1.produce(RemoteExternalSystemProjectResolverImpl.java:41)
+	at com.intellij.openapi.externalSystem.service.remote.RemoteExternalSystemProjectResolverImpl$1.produce(RemoteExternalSystemProjectResolverImpl.java:37)
+	at com.intellij.openapi.externalSystem.service.remote.AbstractRemoteExternalSystemService.execute(AbstractRemoteExternalSystemService.java:59)
+	at com.intellij.openapi.externalSystem.service.remote.RemoteExternalSystemProjectResolverImpl.resolveProjectInfo(RemoteExternalSystemProjectResolverImpl.java:37)
+	at com.intellij.openapi.externalSystem.service.remote.wrapper.ExternalSystemProjectResolverWrapper.resolveProjectInfo(ExternalSystemProjectResolverWrapper.java:49)
+	at com.intellij.openapi.externalSystem.service.internal.ExternalSystemResolveProjectTask.doExecute(ExternalSystemResolveProjectTask.java:48)
+	at com.intellij.openapi.externalSystem.service.internal.AbstractExternalSystemTask.execute(AbstractExternalSystemTask.java:137)
+	at com.intellij.openapi.externalSystem.service.internal.AbstractExternalSystemTask.execute(AbstractExternalSystemTask.java:123)
+	at com.intellij.openapi.externalSystem.service.project.wizard.AbstractExternalProjectImportBuilder$1$2$1.run(AbstractExternalProjectImportBuilder.java:162)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$TaskRunnable.run(ProgressManagerImpl.java:464)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$2.run(ProgressManagerImpl.java:178)
+	at com.intellij.openapi.progress.ProgressManager.executeProcessUnderProgress(ProgressManager.java:209)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:212)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.runProcess(ProgressManagerImpl.java:171)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$8.run(ProgressManagerImpl.java:373)
+	at com.intellij.openapi.application.impl.ApplicationImpl$8.run(ApplicationImpl.java:419)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:439)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1$1.run(ApplicationImpl.java:149)
+Caused by: com.intellij.openapi.externalSystem.model.ExternalSystemException: Could not resolve all dependencies for configuration 'detachedConfiguration5'.
+Module version :intellijbug:unspecified, configuration 'detachedConfiguration5' declares a dependency on configuration 'master' which is not declared in the module descriptor for com.netflix.frigga:frigga:0.6
+	at org.jetbrains.plugins.gradle.model.ProjectImportAction.execute(ProjectImportAction.java:72)
+	at org.jetbrains.plugins.gradle.model.ProjectImportAction.execute(ProjectImportAction.java:35)
+	at org.gradle.tooling.internal.consumer.connection.ActionAwareConsumerConnection$BuildActionAdapter.execute(ActionAwareConsumerConnection.java:57)
+	at org.gradle.tooling.internal.provider.ClientProvidedBuildAction$1.onConfigure(ClientProvidedBuildAction.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:31)
+	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:31)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy15.onConfigure(Unknown Source)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:148)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:113)
+	at org.gradle.initialization.DefaultGradleLauncher.getBuildAnalysis(DefaultGradleLauncher.java:92)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.configure(InProcessBuildActionExecuter.java:68)
+	at org.gradle.tooling.internal.provider.ClientProvidedBuildAction.run(ClientProvidedBuildAction.java:66)
+	at org.gradle.tooling.internal.provider.ClientProvidedBuildAction.run(ClientProvidedBuildAction.java:33)
+	at org.gradle.tooling.internal.provider.ConfiguringBuildAction.run(ConfiguringBuildAction.java:108)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:35)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:45)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:42)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:24)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.StartStopIfBuildAndStop.execute(StartStopIfBuildAndStop.java:33)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.ReturnResult.execute(ReturnResult.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:71)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:69)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:69)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:60)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:60)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:45)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator.runCommand(DaemonStateCoordinator.java:186)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy.doBuild(StartBuildOrRespondWithBusy.java:49)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.HandleStop.execute(HandleStop.java:36)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.DaemonHygieneAction.execute(DaemonHygieneAction.java:36)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.CatchAndForwardDaemonFailure.execute(CatchAndForwardDaemonFailure.java:32)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.DefaultDaemonCommandExecuter.executeCommand(DefaultDaemonCommandExecuter.java:51)
+	at org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler$ConnectionWorker.handleCommand(DefaultIncomingConnectionHandler.java:155)
+	at org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler$ConnectionWorker.receiveAndHandleCommand(DefaultIncomingConnectionHandler.java:128)
+	at org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler$ConnectionWorker.run(DefaultIncomingConnectionHandler.java:116)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:66)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2014-03-25 14:30:13,860 [  27196]   INFO - .BaseProjectImportErrorHandler - Failed to import Gradle project at '/Users/rspieldenner/Projects/github/intellijbug' 
+org.gradle.tooling.BuildActionFailureException: The supplied build action failed with an exception.
+	at org.gradle.tooling.internal.consumer.connection.ActionAwareConsumerConnection.run(ActionAwareConsumerConnection.java:42)
+	at org.gradle.tooling.internal.consumer.DefaultBuildActionExecuter$1.run(DefaultBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.consumer.connection.LazyConsumerActionExecutor.run(LazyConsumerActionExecutor.java:82)
+	at org.gradle.tooling.internal.consumer.connection.ProgressLoggingConsumerActionExecutor.run(ProgressLoggingConsumerActionExecutor.java:58)
+	at org.gradle.tooling.internal.consumer.connection.LoggingInitializerConsumerActionExecutor.run(LoggingInitializerConsumerActionExecutor.java:44)
+	at org.gradle.tooling.internal.consumer.async.DefaultAsyncConsumerActionExecutor$1$1.run(DefaultAsyncConsumerActionExecutor.java:55)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:66)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+	at org.gradle.tooling.internal.consumer.BlockingResultHandler.getResult(BlockingResultHandler.java:46)
+	at org.gradle.tooling.internal.consumer.DefaultBuildActionExecuter.run(DefaultBuildActionExecuter.java:43)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver.doResolveProjectInfo(GradleProjectResolver.java:183)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver.access$300(GradleProjectResolver.java:64)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver$ProjectConnectionDataNodeFunction.fun(GradleProjectResolver.java:358)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver$ProjectConnectionDataNodeFunction.fun(GradleProjectResolver.java:330)
+	at org.jetbrains.plugins.gradle.service.project.GradleExecutionHelper.execute(GradleExecutionHelper.java:201)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver.resolveProjectInfo(GradleProjectResolver.java:116)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver.resolveProjectInfo(GradleProjectResolver.java:64)
+	at com.intellij.openapi.externalSystem.service.remote.RemoteExternalSystemProjectResolverImpl$1.produce(RemoteExternalSystemProjectResolverImpl.java:41)
+	at com.intellij.openapi.externalSystem.service.remote.RemoteExternalSystemProjectResolverImpl$1.produce(RemoteExternalSystemProjectResolverImpl.java:37)
+	at com.intellij.openapi.externalSystem.service.remote.AbstractRemoteExternalSystemService.execute(AbstractRemoteExternalSystemService.java:59)
+	at com.intellij.openapi.externalSystem.service.remote.RemoteExternalSystemProjectResolverImpl.resolveProjectInfo(RemoteExternalSystemProjectResolverImpl.java:37)
+	at com.intellij.openapi.externalSystem.service.remote.wrapper.ExternalSystemProjectResolverWrapper.resolveProjectInfo(ExternalSystemProjectResolverWrapper.java:49)
+	at com.intellij.openapi.externalSystem.service.internal.ExternalSystemResolveProjectTask.doExecute(ExternalSystemResolveProjectTask.java:48)
+	at com.intellij.openapi.externalSystem.service.internal.AbstractExternalSystemTask.execute(AbstractExternalSystemTask.java:137)
+	at com.intellij.openapi.externalSystem.service.internal.AbstractExternalSystemTask.execute(AbstractExternalSystemTask.java:123)
+	at com.intellij.openapi.externalSystem.service.project.wizard.AbstractExternalProjectImportBuilder$1$2$1.run(AbstractExternalProjectImportBuilder.java:162)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$TaskRunnable.run(ProgressManagerImpl.java:464)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$2.run(ProgressManagerImpl.java:178)
+	at com.intellij.openapi.progress.ProgressManager.executeProcessUnderProgress(ProgressManager.java:209)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:212)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.runProcess(ProgressManagerImpl.java:171)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$8.run(ProgressManagerImpl.java:373)
+	at com.intellij.openapi.application.impl.ApplicationImpl$8.run(ApplicationImpl.java:419)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:439)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1$1.run(ApplicationImpl.java:149)
+Caused by: com.intellij.openapi.externalSystem.model.ExternalSystemException: Could not resolve all dependencies for configuration 'detachedConfiguration5'.
+Module version :intellijbug:unspecified, configuration 'detachedConfiguration5' declares a dependency on configuration 'master' which is not declared in the module descriptor for com.netflix.frigga:frigga:0.6
+	at org.jetbrains.plugins.gradle.model.ProjectImportAction.execute(ProjectImportAction.java:72)
+	at org.jetbrains.plugins.gradle.model.ProjectImportAction.execute(ProjectImportAction.java:35)
+	at org.gradle.tooling.internal.consumer.connection.ActionAwareConsumerConnection$BuildActionAdapter.execute(ActionAwareConsumerConnection.java:57)
+	at org.gradle.tooling.internal.provider.ClientProvidedBuildAction$1.onConfigure(ClientProvidedBuildAction.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:31)
+	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:31)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy15.onConfigure(Unknown Source)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:148)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:113)
+	at org.gradle.initialization.DefaultGradleLauncher.getBuildAnalysis(DefaultGradleLauncher.java:92)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.configure(InProcessBuildActionExecuter.java:68)
+	at org.gradle.tooling.internal.provider.ClientProvidedBuildAction.run(ClientProvidedBuildAction.java:66)
+	at org.gradle.tooling.internal.provider.ClientProvidedBuildAction.run(ClientProvidedBuildAction.java:33)
+	at org.gradle.tooling.internal.provider.ConfiguringBuildAction.run(ConfiguringBuildAction.java:108)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:35)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:45)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:42)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:24)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.StartStopIfBuildAndStop.execute(StartStopIfBuildAndStop.java:33)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.ReturnResult.execute(ReturnResult.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:71)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:69)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:69)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:60)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:60)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:45)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator.runCommand(DaemonStateCoordinator.java:186)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy.doBuild(StartBuildOrRespondWithBusy.java:49)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.HandleStop.execute(HandleStop.java:36)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.DaemonHygieneAction.execute(DaemonHygieneAction.java:36)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.CatchAndForwardDaemonFailure.execute(CatchAndForwardDaemonFailure.java:32)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.DefaultDaemonCommandExecuter.executeCommand(DefaultDaemonCommandExecuter.java:51)
+	at org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler$ConnectionWorker.handleCommand(DefaultIncomingConnectionHandler.java:155)
+	at org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler$ConnectionWorker.receiveAndHandleCommand(DefaultIncomingConnectionHandler.java:128)
+	at org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler$ConnectionWorker.run(DefaultIncomingConnectionHandler.java:116)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:66)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2014-03-25 14:30:13,861 [  27197]   WARN - nal.AbstractExternalSystemTask - Could not resolve all dependencies for configuration 'detachedConfiguration5'.
+Module version :intellijbug:unspecified, configuration 'detachedConfiguration5' declares a dependency on configuration 'master' which is not declared in the module descriptor for com.netflix.frigga:frigga:0.6 
+com.intellij.openapi.externalSystem.model.ExternalSystemException: Could not resolve all dependencies for configuration 'detachedConfiguration5'.
+Module version :intellijbug:unspecified, configuration 'detachedConfiguration5' declares a dependency on configuration 'master' which is not declared in the module descriptor for com.netflix.frigga:frigga:0.6
+	at org.jetbrains.plugins.gradle.service.project.GradleExecutionHelper.execute(GradleExecutionHelper.java:206)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver.resolveProjectInfo(GradleProjectResolver.java:116)
+	at org.jetbrains.plugins.gradle.service.project.GradleProjectResolver.resolveProjectInfo(GradleProjectResolver.java:64)
+	at com.intellij.openapi.externalSystem.service.remote.RemoteExternalSystemProjectResolverImpl$1.produce(RemoteExternalSystemProjectResolverImpl.java:41)
+	at com.intellij.openapi.externalSystem.service.remote.RemoteExternalSystemProjectResolverImpl$1.produce(RemoteExternalSystemProjectResolverImpl.java:37)
+	at com.intellij.openapi.externalSystem.service.remote.AbstractRemoteExternalSystemService.execute(AbstractRemoteExternalSystemService.java:59)
+	at com.intellij.openapi.externalSystem.service.remote.RemoteExternalSystemProjectResolverImpl.resolveProjectInfo(RemoteExternalSystemProjectResolverImpl.java:37)
+	at com.intellij.openapi.externalSystem.service.remote.wrapper.ExternalSystemProjectResolverWrapper.resolveProjectInfo(ExternalSystemProjectResolverWrapper.java:49)
+	at com.intellij.openapi.externalSystem.service.internal.ExternalSystemResolveProjectTask.doExecute(ExternalSystemResolveProjectTask.java:48)
+	at com.intellij.openapi.externalSystem.service.internal.AbstractExternalSystemTask.execute(AbstractExternalSystemTask.java:137)
+	at com.intellij.openapi.externalSystem.service.internal.AbstractExternalSystemTask.execute(AbstractExternalSystemTask.java:123)
+	at com.intellij.openapi.externalSystem.service.project.wizard.AbstractExternalProjectImportBuilder$1$2$1.run(AbstractExternalProjectImportBuilder.java:162)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$TaskRunnable.run(ProgressManagerImpl.java:464)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$2.run(ProgressManagerImpl.java:178)
+	at com.intellij.openapi.progress.ProgressManager.executeProcessUnderProgress(ProgressManager.java:209)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:212)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.runProcess(ProgressManagerImpl.java:171)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$8.run(ProgressManagerImpl.java:373)
+	at com.intellij.openapi.application.impl.ApplicationImpl$8.run(ApplicationImpl.java:419)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:439)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1$1.run(ApplicationImpl.java:149)
+
+2014-03-25 14:30:15,933 [  29269]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/remote-servers.xml file is null 
+2014-03-25 14:30:16,112 [  29448]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 7816 ms 
+2014-03-25 14:30:16,232 [  29568]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/fileColors.xml file is null 
+2014-03-25 14:30:23,004 [  36340]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/jsLibraryMappings.xml file is null 
+2014-03-25 14:30:23,014 [  36350]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/dataSources.xml file is null 
+2014-03-25 14:30:23,016 [  36352]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/dataSources.xml file is null 
+2014-03-25 14:30:23,017 [  36353]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/sqlDataSources.xml file is null 
+2014-03-25 14:30:24,568 [  37904]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2014-03-25 14:30:24,678 [  38014]   INFO - ins.android.sdk.AndroidSdkData - DDMLib terminated 
+2014-03-25 14:30:24,679 [  38015]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2014-03-25 14:30:24,715 [  38051]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2014-03-25 14:30:24,715 [  38051]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2014-03-25 14:30:24,715 [  38051]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2014-03-25 14:30:24,716 [  38052]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2014-03-25 14:30:24,723 [  38059]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2014-03-25 14:30:24,732 [  38068]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2014-03-25 14:30:24,733 [  38069]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2014-03-25 14:30:24,764 [  38100]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2014-03-25 14:30:24,769 [  38105]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
