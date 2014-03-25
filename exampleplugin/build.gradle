@@ -1,0 +1,46 @@
+apply plugin: 'groovy'
+apply plugin: 'maven-publish'
+
+version = '1.0.0'
+group = 'netflix.plugin'
+
+repositories {
+    /*ivy {
+        url "../ivyrepo"
+        layout('pattern') {
+            ivy '[organisation]/[module]/[revision]/[module]-[revision]-ivy.[ext]'
+            artifact '[organisation]/[module]/[revision]/[artifact]-[revision](-[classifier]).[ext]'
+            m2compatible = true
+        }
+    }*/
+    maven {
+        url "../mavenrepo"
+    }    
+}
+
+
+dependencies {
+    compile localGroovy()
+    compile gradleApi()
+    //compile 'com.netflix:friggawrapper:1.0.0'
+    compile 'com.netflix.frigga:frigga:0.6'
+}
+
+task showBuildRepositories << {
+    repositories.each {
+        println "repository: ${it.name} ('${it.url}')"
+    }
+}
+
+publishing {
+    repositories {
+        maven {
+            url "../mavenrepo"
+        }
+    }
+    publications {
+        mavenGroovy(MavenPublication) {
+            from components.java
+        }
+    }
+}
